@@ -10,12 +10,10 @@ python-vs-go-patterns/
 │  
 ├── python/          # Примеры на Python  
 │   ├── basics/  
-│   ├── algorithms/  
 │   └── projects/  
 │  
 ├── go/              # Примеры на Go  
-│   ├── basics/  
-│   ├── algorithms/  
+│   ├── basics/ 
 │   └── projects/  
 │  
 ├── tasks/           # Одинаковые задачи на двух языках  
@@ -279,7 +277,7 @@ user = {
 print(user["name"])
 
 # добавление нового ключа
-user["city"] = "Vilnius"
+user["city"] = "Saint Petersburg"
 
 print(user)
 ```
@@ -301,7 +299,7 @@ func main() {
     fmt.Println(user["name"])
 
     // добавление значения
-    user["city"] = "Vilnius"
+    user["city"] = "Saint Petersburg"
 
     fmt.Println(user)
 }
@@ -318,3 +316,8 @@ func main() {
 - Go — явность и строгая структура
 
 Один и тот же алгоритм в Go обычно более “явный”, а в Python — более “компактный”.
+
+| Язык   | Порядок выполнения                           |
+|--------|----------------------------------------------|
+| Python | Код (.py) → Байткод → CPython → Выполнение   |
+| Go     | Код (.go) → Компилятор → Бинарь → Запуск     |

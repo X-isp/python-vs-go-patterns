@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(user["name"])
 
 	// добавление значения
-	user["city"] = "Vilnius"
+	user["city"] = "Saint Petersburg"
 
 	fmt.Println(user)
 }

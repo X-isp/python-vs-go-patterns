@@ -7,6 +7,6 @@ user = {
 print(user["name"])
 
 # добавление нового ключа
-user["city"] = "Vilnius"
+user["city"] = "Saint Petersburg"
 
 print(user)
